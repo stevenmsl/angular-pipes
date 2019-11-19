@@ -10,14 +10,23 @@ import { HeroBirthdayComponent } from "./hero-birthday1.component";
 import { HeroBirthday2Component } from "./hero-birthday2.component";
 import { PowerBoosterComponent } from "./power-booster.component";
 import { PowerBoostCalculatorComponent } from "./power-boost-calculator.component";
+import {
+  FlyingHeroesComponent,
+  FlyingHeroesComponentImpure
+} from "./flying-heroes.component";
+import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from "./flying-heroes.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
+    FlyingHeroesComponent,
+    FlyingHeroesComponentImpure,
     HeroBirthdayComponent,
     HeroBirthday2Component,
     PowerBoosterComponent,
     PowerBoostCalculatorComponent,
+    FlyingHeroesPipe,
+    FlyingHeroesImpurePipe,
     FetchJsonPipe,
     ExponentialStrengthPipe
   ],
