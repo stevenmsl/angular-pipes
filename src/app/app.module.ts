@@ -16,6 +16,7 @@ import {
 } from "./flying-heroes.component";
 import { FlyingHeroesPipe, FlyingHeroesImpurePipe } from "./flying-heroes.pipe";
 import { HeroAsyncMessageComponent } from "./hero-async-message.component";
+import { HeroListComponent } from "./hero-list.component";
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HeroAsyncMessageComponent } from "./hero-async-message.component";
     FlyingHeroesComponentImpure,
     HeroBirthdayComponent,
     HeroBirthday2Component,
+    HeroListComponent,
     PowerBoosterComponent,
     PowerBoostCalculatorComponent,
     HeroAsyncMessageComponent,
